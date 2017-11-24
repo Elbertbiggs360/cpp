@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		3248A9191FBC7885007F79F1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3248A9181FBC7885007F79F1 /* main.cpp */; };
+		329780C31FC85092006AAF98 /* exercise2.c in Sources */ = {isa = PBXBuildFile; fileRef = 329780B61FC85092006AAF98 /* exercise2.c */; };
+		329780C41FC85092006AAF98 /* triangular.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 329780B71FC85092006AAF98 /* triangular.cpp */; };
+		329780C51FC85092006AAF98 /* goto.c in Sources */ = {isa = PBXBuildFile; fileRef = 329780BA1FC85092006AAF98 /* goto.c */; };
+		329780C61FC85092006AAF98 /* fibonacci.c in Sources */ = {isa = PBXBuildFile; fileRef = 329780BD1FC85092006AAF98 /* fibonacci.c */; };
+		329780C71FC85092006AAF98 /* reverse.c in Sources */ = {isa = PBXBuildFile; fileRef = 329780BE1FC85092006AAF98 /* reverse.c */; };
+		329780C81FC85092006AAF98 /* fibeverse.c in Sources */ = {isa = PBXBuildFile; fileRef = 329780BF1FC85092006AAF98 /* fibeverse.c */; };
+		329780CB1FC850D5006AAF98 /* pointer.c in Sources */ = {isa = PBXBuildFile; fileRef = 329780CA1FC850D5006AAF98 /* pointer.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +32,17 @@
 /* Begin PBXFileReference section */
 		3248A9151FBC7885007F79F1 /* mentorship */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = mentorship; sourceTree = BUILT_PRODUCTS_DIR; };
 		3248A9181FBC7885007F79F1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		329780B61FC85092006AAF98 /* exercise2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = exercise2.c; sourceTree = "<group>"; };
+		329780B71FC85092006AAF98 /* triangular.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = triangular.cpp; sourceTree = "<group>"; };
+		329780B81FC85092006AAF98 /* exercise2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = exercise2.h; sourceTree = "<group>"; };
+		329780B91FC85092006AAF98 /* triangular.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = triangular.hpp; sourceTree = "<group>"; };
+		329780BA1FC85092006AAF98 /* goto.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = goto.c; sourceTree = "<group>"; };
+		329780BC1FC85092006AAF98 /* reverse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = reverse.h; sourceTree = "<group>"; };
+		329780BD1FC85092006AAF98 /* fibonacci.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fibonacci.c; sourceTree = "<group>"; };
+		329780BE1FC85092006AAF98 /* reverse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = reverse.c; sourceTree = "<group>"; };
+		329780BF1FC85092006AAF98 /* fibeverse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fibeverse.c; sourceTree = "<group>"; };
+		329780C01FC85092006AAF98 /* fibonacci.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fibonacci.h; sourceTree = "<group>"; };
+		329780CA1FC850D5006AAF98 /* pointer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pointer.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +75,44 @@
 		3248A9171FBC7885007F79F1 /* mentorship */ = {
 			isa = PBXGroup;
 			children = (
+				329780BB1FC85092006AAF98 /* assn1 */,
+				329780B51FC85092006AAF98 /* assn2 */,
+				329780C11FC85092006AAF98 /* assn3 */,
 				3248A9181FBC7885007F79F1 /* main.cpp */,
 			);
 			path = mentorship;
+			sourceTree = "<group>";
+		};
+		329780B51FC85092006AAF98 /* assn2 */ = {
+			isa = PBXGroup;
+			children = (
+				329780B61FC85092006AAF98 /* exercise2.c */,
+				329780B71FC85092006AAF98 /* triangular.cpp */,
+				329780B81FC85092006AAF98 /* exercise2.h */,
+				329780B91FC85092006AAF98 /* triangular.hpp */,
+				329780BA1FC85092006AAF98 /* goto.c */,
+			);
+			path = assn2;
+			sourceTree = "<group>";
+		};
+		329780BB1FC85092006AAF98 /* assn1 */ = {
+			isa = PBXGroup;
+			children = (
+				329780BC1FC85092006AAF98 /* reverse.h */,
+				329780BD1FC85092006AAF98 /* fibonacci.c */,
+				329780BE1FC85092006AAF98 /* reverse.c */,
+				329780BF1FC85092006AAF98 /* fibeverse.c */,
+				329780C01FC85092006AAF98 /* fibonacci.h */,
+			);
+			path = assn1;
+			sourceTree = "<group>";
+		};
+		329780C11FC85092006AAF98 /* assn3 */ = {
+			isa = PBXGroup;
+			children = (
+				329780CA1FC850D5006AAF98 /* pointer.c */,
+			);
+			path = assn3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +172,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				329780C61FC85092006AAF98 /* fibonacci.c in Sources */,
+				329780C51FC85092006AAF98 /* goto.c in Sources */,
+				329780C41FC85092006AAF98 /* triangular.cpp in Sources */,
+				329780CB1FC850D5006AAF98 /* pointer.c in Sources */,
+				329780C31FC85092006AAF98 /* exercise2.c in Sources */,
+				329780C81FC85092006AAF98 /* fibeverse.c in Sources */,
+				329780C71FC85092006AAF98 /* reverse.c in Sources */,
 				3248A9191FBC7885007F79F1 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
