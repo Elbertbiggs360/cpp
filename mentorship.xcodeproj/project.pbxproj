@@ -17,6 +17,7 @@
 		329780C81FC85092006AAF98 /* fibeverse.c in Sources */ = {isa = PBXBuildFile; fileRef = 329780BF1FC85092006AAF98 /* fibeverse.c */; };
 		329780CB1FC850D5006AAF98 /* pointer.c in Sources */ = {isa = PBXBuildFile; fileRef = 329780CA1FC850D5006AAF98 /* pointer.c */; };
 		32A84F961FD7CCCF00DDA6AB /* resize.c in Sources */ = {isa = PBXBuildFile; fileRef = 32A84F951FD7CCCF00DDA6AB /* resize.c */; };
+		32A84F981FD7DF9D00DDA6AB /* sort.c in Sources */ = {isa = PBXBuildFile; fileRef = 32A84F971FD7DF9D00DDA6AB /* sort.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -47,6 +48,7 @@
 		329780C01FC85092006AAF98 /* fibonacci.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fibonacci.h; sourceTree = "<group>"; };
 		329780CA1FC850D5006AAF98 /* pointer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pointer.c; sourceTree = "<group>"; };
 		32A84F951FD7CCCF00DDA6AB /* resize.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = resize.c; sourceTree = "<group>"; };
+		32A84F971FD7DF9D00DDA6AB /* sort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sort.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 				329780CA1FC850D5006AAF98 /* pointer.c */,
 				3221AB2F1FC8A29700EF5DF6 /* reverse.c */,
 				32A84F951FD7CCCF00DDA6AB /* resize.c */,
+				32A84F971FD7DF9D00DDA6AB /* sort.c */,
 			);
 			path = assn3;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 				329780C61FC85092006AAF98 /* fibonacci.c in Sources */,
 				3221AB301FC8A29700EF5DF6 /* reverse.c in Sources */,
 				329780C51FC85092006AAF98 /* goto.c in Sources */,
+				32A84F981FD7DF9D00DDA6AB /* sort.c in Sources */,
 				329780C41FC85092006AAF98 /* triangular.cpp in Sources */,
 				329780CB1FC850D5006AAF98 /* pointer.c in Sources */,
 				32A84F961FD7CCCF00DDA6AB /* resize.c in Sources */,
