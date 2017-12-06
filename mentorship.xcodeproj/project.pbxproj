@@ -18,6 +18,7 @@
 		329780CB1FC850D5006AAF98 /* pointer.c in Sources */ = {isa = PBXBuildFile; fileRef = 329780CA1FC850D5006AAF98 /* pointer.c */; };
 		32A84F961FD7CCCF00DDA6AB /* resize.c in Sources */ = {isa = PBXBuildFile; fileRef = 32A84F951FD7CCCF00DDA6AB /* resize.c */; };
 		32A84F981FD7DF9D00DDA6AB /* sort.c in Sources */ = {isa = PBXBuildFile; fileRef = 32A84F971FD7DF9D00DDA6AB /* sort.c */; };
+		32A84F9B1FD81D0900DDA6AB /* texquote.c in Sources */ = {isa = PBXBuildFile; fileRef = 32A84F9A1FD81D0900DDA6AB /* texquote.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -49,6 +50,7 @@
 		329780CA1FC850D5006AAF98 /* pointer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pointer.c; sourceTree = "<group>"; };
 		32A84F951FD7CCCF00DDA6AB /* resize.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = resize.c; sourceTree = "<group>"; };
 		32A84F971FD7DF9D00DDA6AB /* sort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sort.c; sourceTree = "<group>"; };
+		32A84F9A1FD81D0900DDA6AB /* texquote.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = texquote.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 		3214F06F1FCC3D1300693357 /* week1 */ = {
 			isa = PBXGroup;
 			children = (
+				32A84F991FD81CD900DDA6AB /* application */,
 				329780C11FC85092006AAF98 /* assn3 */,
 				329780B51FC85092006AAF98 /* assn2 */,
 				329780BB1FC85092006AAF98 /* assn1 */,
@@ -132,6 +135,14 @@
 			path = assn3;
 			sourceTree = "<group>";
 		};
+		32A84F991FD81CD900DDA6AB /* application */ = {
+			isa = PBXGroup;
+			children = (
+				32A84F9A1FD81D0900DDA6AB /* texquote.c */,
+			);
+			path = application;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -191,6 +202,7 @@
 			files = (
 				329780C61FC85092006AAF98 /* fibonacci.c in Sources */,
 				3221AB301FC8A29700EF5DF6 /* reverse.c in Sources */,
+				32A84F9B1FD81D0900DDA6AB /* texquote.c in Sources */,
 				329780C51FC85092006AAF98 /* goto.c in Sources */,
 				32A84F981FD7DF9D00DDA6AB /* sort.c in Sources */,
 				329780C41FC85092006AAF98 /* triangular.cpp in Sources */,

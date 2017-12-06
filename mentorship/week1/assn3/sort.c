@@ -63,6 +63,7 @@ int main(){
         printf("%d ",*(array+x));
     }
     printf("\n");
+    free(array);
     return 0;
     
 }
