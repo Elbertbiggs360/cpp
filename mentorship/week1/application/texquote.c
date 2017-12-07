@@ -8,14 +8,16 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#define len(x) (sizeof(x)/sizeof(x[0]))
+
+int len(char* quote);
 
 int main(){
     printf("Tex Quotes\n------------\n");
     printf("A program to convert the stylized quotes to tex quotes\n");
-    printf("Input text: \t");
+    printf("Input text:\n");
 
     char* text = (char*)malloc(200*sizeof(char));
+    char* texquoted = (char*)malloc(400*sizeof(char));
     
     scanf ("%[^\n]%*c", text);
     if(text == NULL){
@@ -23,17 +25,38 @@ int main(){
         return 1;
     }
     int close_quote = 0;
+    int j = 0;
     for(int i=0;i<len(text);i++){
         char quote = text[i];
         if(quote=='"'){
-            if(close_quote){
-                printf("%c", quote);
+            if(close_quote==1){
+                texquoted[j] = '\'';
+                texquoted[j+1] = '\'';
+                close_quote = 0;
+            } else if(close_quote ==0) {
+                texquoted[j] = '`';
+                texquoted[j+1] = '`';
+                close_quote = 1;
             }
+            j = j+2;
+        } else {
+            texquoted[j] = quote;
+            j = j+1;
         }
         
     }
-    printf("\n%s\n", text);
+    printf("Output text:\n");
+    printf("\n%s\n", texquoted);
     
     free(text);
+    free(texquoted);
     return 0;
+}
+
+int len(char* quote){
+    int quote_len = 0;
+    while(*(quote++)){
+        quote_len++;
+    }
+    return quote_len;
 }
