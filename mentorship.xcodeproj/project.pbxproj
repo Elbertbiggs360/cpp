@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3221AB301FC8A29700EF5DF6 /* reverse.c in Sources */ = {isa = PBXBuildFile; fileRef = 3221AB2F1FC8A29700EF5DF6 /* reverse.c */; };
 		322F06651FD94AED0035C2A3 /* celebrity_jeopardy.c in Sources */ = {isa = PBXBuildFile; fileRef = 322F06641FD94AED0035C2A3 /* celebrity_jeopardy.c */; };
+		322F06671FD963910035C2A3 /* euler1.c in Sources */ = {isa = PBXBuildFile; fileRef = 322F06661FD963910035C2A3 /* euler1.c */; };
 		3248A9191FBC7885007F79F1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3248A9181FBC7885007F79F1 /* main.cpp */; };
 		329780C31FC85092006AAF98 /* exercise2.c in Sources */ = {isa = PBXBuildFile; fileRef = 329780B61FC85092006AAF98 /* exercise2.c */; };
 		329780C41FC85092006AAF98 /* triangular.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 329780B71FC85092006AAF98 /* triangular.cpp */; };
@@ -37,6 +38,7 @@
 /* Begin PBXFileReference section */
 		3221AB2F1FC8A29700EF5DF6 /* reverse.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = reverse.c; sourceTree = "<group>"; };
 		322F06641FD94AED0035C2A3 /* celebrity_jeopardy.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = celebrity_jeopardy.c; sourceTree = "<group>"; };
+		322F06661FD963910035C2A3 /* euler1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = euler1.c; sourceTree = "<group>"; };
 		3248A9151FBC7885007F79F1 /* mentorship */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = mentorship; sourceTree = BUILT_PRODUCTS_DIR; };
 		3248A9181FBC7885007F79F1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		329780B61FC85092006AAF98 /* exercise2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = exercise2.c; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 			children = (
 				32A84F9A1FD81D0900DDA6AB /* texquote.c */,
 				322F06641FD94AED0035C2A3 /* celebrity_jeopardy.c */,
+				322F06661FD963910035C2A3 /* euler1.c */,
 			);
 			path = application;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 				329780C81FC85092006AAF98 /* fibeverse.c in Sources */,
 				329780C71FC85092006AAF98 /* reverse.c in Sources */,
 				3248A9191FBC7885007F79F1 /* main.cpp in Sources */,
+				322F06671FD963910035C2A3 /* euler1.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
