@@ -22,6 +22,7 @@
 		32A84F961FD7CCCF00DDA6AB /* resize.c in Sources */ = {isa = PBXBuildFile; fileRef = 32A84F951FD7CCCF00DDA6AB /* resize.c */; };
 		32A84F981FD7DF9D00DDA6AB /* sort.c in Sources */ = {isa = PBXBuildFile; fileRef = 32A84F971FD7DF9D00DDA6AB /* sort.c */; };
 		32A84F9B1FD81D0900DDA6AB /* texquote.c in Sources */ = {isa = PBXBuildFile; fileRef = 32A84F9A1FD81D0900DDA6AB /* texquote.c */; };
+		32A8B4BE1FDE74030031B8A3 /* euler3.c in Sources */ = {isa = PBXBuildFile; fileRef = 32A8B4BD1FDE74030031B8A3 /* euler3.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -57,6 +58,7 @@
 		32A84F951FD7CCCF00DDA6AB /* resize.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = resize.c; sourceTree = "<group>"; };
 		32A84F971FD7DF9D00DDA6AB /* sort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sort.c; sourceTree = "<group>"; };
 		32A84F9A1FD81D0900DDA6AB /* texquote.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = texquote.c; sourceTree = "<group>"; };
+		32A8B4BD1FDE74030031B8A3 /* euler3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = euler3.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 				322F06641FD94AED0035C2A3 /* celebrity_jeopardy.c */,
 				322F06661FD963910035C2A3 /* euler1.c */,
 				3216D0BD1FDA846D0009B0EE /* euler2.c */,
+				32A8B4BD1FDE74030031B8A3 /* euler3.c */,
 			);
 			path = application;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 				329780CB1FC850D5006AAF98 /* pointer.c in Sources */,
 				32A84F961FD7CCCF00DDA6AB /* resize.c in Sources */,
 				322F06651FD94AED0035C2A3 /* celebrity_jeopardy.c in Sources */,
+				32A8B4BE1FDE74030031B8A3 /* euler3.c in Sources */,
 				3216D0BE1FDA846D0009B0EE /* euler2.c in Sources */,
 				329780C31FC85092006AAF98 /* exercise2.c in Sources */,
 				329780C81FC85092006AAF98 /* fibeverse.c in Sources */,
